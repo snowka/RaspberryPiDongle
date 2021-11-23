@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Raspberry Pi Dongle’s documentation! &#8212; RaspberryPiDongle 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-raspberry-pi-dongle-s-documentation">
+<h1>Welcome to Raspberry Pi Dongle’s documentation!<a class="headerlink" href="#welcome-to-raspberry-pi-dongle-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="purchasing-the-dongle">
+<h1>Purchasing the Dongle<a class="headerlink" href="#purchasing-the-dongle" title="Permalink to this headline">¶</a></h1>
+<p>The Raspberry Pi/USB that I used for this project is
+<a class="reference external" href="https://www.adafruit.com/product/3945">https://www.adafruit.com/product/3945</a></p>
+</div>
+<div class="section" id="connecting-the-dongle-to-your-raspberry-pi-zero-w">
+<h1>Connecting the Dongle to Your Raspberry Pi Zero W<a class="headerlink" href="#connecting-the-dongle-to-your-raspberry-pi-zero-w" title="Permalink to this headline">¶</a></h1>
+<p>I will not try to outdo the great documentation provided on the Zerostem.io site site:
+<a href="#id1"><span class="problematic" id="id2">`</span></a>&lt;<a class="reference external" href="https://zerostem.io/installation/">https://zerostem.io/installation/</a>&gt;’_</p>
+</div>
+<div class="section" id="plugging-your-raspberry-pi-dongle-to-a-windows-computer-and-finding-it">
+<h1>Plugging Your Raspberry Pi Dongle to a Windows Computer and Finding It<a class="headerlink" href="#plugging-your-raspberry-pi-dongle-to-a-windows-computer-and-finding-it" title="Permalink to this headline">¶</a></h1>
+<p>These directions were very helpful:
+<a class="reference external" href="https://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/">https://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/</a></p>
+<p>Don’t forget to enable SSH capability on your pi by creating a file on the boot drive named SSH. (No file extension.)
+Not sure how to create a file without a file extension? Create a file in Notepad or Notepad +++ with quotes on both sides of the name; a file extension is not required or included.</p>
+</div>
+<div class="section" id="connecting-to-your-raspberry-pi">
+<h1>Connecting to Your Raspberry Pi<a class="headerlink" href="#connecting-to-your-raspberry-pi" title="Permalink to this headline">¶</a></h1>
+<p>Before beginning, make sure that your Raspberry Pi has a fresh install of the operating system and tht you have added a fild to the boot drive named SSH. (The SSH file cannot have a file extension. See above if you do not know how to do this.)</p>
+<p>Connect your Raspberry Pi (attachd to the USB dongle) to your computer. (A USB extension cord with a male and female end can make this more convenient.)</p>
+<p>You have two options for connecting to your Raspberry Pi, either with Secure Shell (SSH) or via VNC Viewer.</p>
+<p>For a comprehensive overview regarding this, see the Pi documentation <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/remote-access.html">https://www.raspberrypi.com/documentation/computers/remote-access.html</a></p>
+<p>To connect to the Pi using SSH, make sure you have PuTTY. You can download it here <a class="reference external" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a>.
+Open putty and connect to <code class="docutils literal notranslate"><span class="pre">raspberrypi.local</span></code>. You will be prompted to entering the username (<strong>pi</strong>, unless you have changed this) and the password (<strong>raspberry</strong> if, again, you have not changed it).
+This will provide you with access to your pi via the command line.</p>
+<p>To connect with your pi with a GUI (graphical user interface–a desktop), you will need to use VNC Viewer.</p>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">RaspberryPiDongle</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Scott Nowka.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
